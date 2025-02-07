@@ -20,6 +20,7 @@ import com.example.demo.service.AccountService;
 public class AccountController {
 	@Autowired
 	AccountService service;
+// System.out.println("Hello world!");
 
 	@PostMapping("/create")
 	public String saveAccount(@RequestBody Account account) {
